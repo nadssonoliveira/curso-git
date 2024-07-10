@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1720614842 source:c:\users\kauea\onedrive\documentos\cursos\curso-git\projeto.c
+	<stdio.h>
+	"fibonati.h"
+
+1720614859 c:\users\kauea\onedrive\documentos\cursos\curso-git\fibonati.h
+
