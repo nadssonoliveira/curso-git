@@ -1,6 +1,13 @@
 #include "fibonati.h"
 
 int fib(int n){
-    if(n <= 2) return 1;
-    return fib(n - 2) + fib(n - 1);
+    int f, aux, anterior, i;
+    f = 1;
+    anterior = 1;
+    for(i = 2; i < n; i++){
+        aux = f;
+        f += anterior;
+        anterior = aux;
+    }
+    return f;
 }
