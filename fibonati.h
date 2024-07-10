@@ -1,3 +1,1 @@
 
-
-int fib(int n);
